@@ -28,11 +28,7 @@ SELECT * FROM microposts;
 
 ## 3. アプリケーションの実行
 ```powershell
-# 開発環境の設定
-$env:APP_ENV="development"
-
-# Goアプリケーションの起動
-go run main.go
+ $env:APP_ENV="development"; go run main.go
 ```
 
 これで、ブログ投稿を保存するためのデータベース環境が整います。
